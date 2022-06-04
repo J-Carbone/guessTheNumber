@@ -31,6 +31,7 @@ public class main {
                 System.out.println("Good job," + name + "! You guessed my number in " + (i+1) + " guesses!");
                 break;
             }
+            System.out.println("You have " + (6-i) + " guesses left!");
             if (i == 5) System.out.println(name + " is a failure! The number was " + randomNum);
         }
         System.out.println("Would you like to play again? (y or n)");
